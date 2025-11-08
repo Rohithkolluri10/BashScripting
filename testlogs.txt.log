@@ -1,0 +1,1230 @@
+2025-10-15T19:20:10+0000 INFO --- logging initialized ---
+2025-10-15T19:20:10+0000 DDEBUG timer: config: 26 ms
+2025-10-15T19:20:10+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-15T19:20:10+0000 DEBUG DNF version: 4.14.0
+2025-10-15T19:20:10+0000 DDEBUG Command: dnf --debuglevel 2 updateinfo
+2025-10-15T19:20:10+0000 DDEBUG Installroot: /
+2025-10-15T19:20:10+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-15T19:20:10+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-15T19:20:10+0000 DDEBUG Base command: updateinfo
+2025-10-15T19:20:10+0000 DDEBUG Extra commands: ['--debuglevel', '2', 'updateinfo']
+2025-10-15T19:20:10+0000 DEBUG User-Agent: constructed: 'libdnf (Amazon Linux 2023; generic; Linux.x86_64)'
+2025-10-15T19:20:10+0000 DEBUG reviving: 'amazonlinux' can be revived - repomd matches.
+2025-10-15T19:20:11+0000 DEBUG amazonlinux: using metadata from Wed Mar 12 22:06:15 2025.
+2025-10-15T19:20:11+0000 DEBUG reviving: failed for 'kernel-livepatch', mismatched repomd.
+2025-10-15T19:20:11+0000 DEBUG repo: downloading from remote: kernel-livepatch
+2025-10-15T19:20:18+0000 DEBUG kernel-livepatch: using metadata from Thu Sep 25 17:37:54 2025.
+2025-10-15T19:20:18+0000 DDEBUG timer: sack setup: 8526 ms
+2025-10-15T19:20:18+0000 DEBUG Completion plugin: Generating completion cache...
+2025-10-15T19:20:19+0000 DDEBUG Cleaning up.
+2025-10-15T19:20:20+0000 INFO --- logging initialized ---
+2025-10-15T19:20:20+0000 DDEBUG timer: config: 4 ms
+2025-10-15T19:20:20+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-15T19:20:20+0000 DEBUG DNF version: 4.14.0
+2025-10-15T19:20:20+0000 DDEBUG Command: dnf check-release-update
+2025-10-15T19:20:20+0000 DDEBUG Installroot: /
+2025-10-15T19:20:20+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-15T19:20:20+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-15T19:20:20+0000 DDEBUG Base command: check-release-update
+2025-10-15T19:20:20+0000 DDEBUG Extra commands: ['check-release-update']
+2025-10-15T19:20:20+0000 WARNING WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.7.20250331:
+    Run the following command to upgrade to 2023.7.20250331:
+
+      dnf upgrade --releasever=2023.7.20250331
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250331.html
+
+  Version 2023.7.20250414:
+    Run the following command to upgrade to 2023.7.20250414:
+
+      dnf upgrade --releasever=2023.7.20250414
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250414.html
+
+  Version 2023.7.20250428:
+    Run the following command to upgrade to 2023.7.20250428:
+
+      dnf upgrade --releasever=2023.7.20250428
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250428.html
+
+  Version 2023.7.20250512:
+    Run the following command to upgrade to 2023.7.20250512:
+
+      dnf upgrade --releasever=2023.7.20250512
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250512.html
+
+  Version 2023.7.20250527:
+    Run the following command to upgrade to 2023.7.20250527:
+
+      dnf upgrade --releasever=2023.7.20250527
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250527.html
+
+  Version 2023.7.20250609:
+    Run the following command to upgrade to 2023.7.20250609:
+
+      dnf upgrade --releasever=2023.7.20250609
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250609.html
+
+  Version 2023.7.20250623:
+    Run the following command to upgrade to 2023.7.20250623:
+
+      dnf upgrade --releasever=2023.7.20250623
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250623.html
+
+  Version 2023.8.20250707:
+    Run the following command to upgrade to 2023.8.20250707:
+
+      dnf upgrade --releasever=2023.8.20250707
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250707.html
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
+
+  Version 2023.8.20250721:
+    Run the following command to upgrade to 2023.8.20250721:
+
+      dnf upgrade --releasever=2023.8.20250721
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250721.html
+
+  Version 2023.8.20250808:
+    Run the following command to upgrade to 2023.8.20250808:
+
+      dnf upgrade --releasever=2023.8.20250808
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250808.html
+
+  Version 2023.8.20250818:
+    Run the following command to upgrade to 2023.8.20250818:
+
+      dnf upgrade --releasever=2023.8.20250818
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250818.html
+
+  Version 2023.8.20250908:
+    Run the following command to upgrade to 2023.8.20250908:
+
+      dnf upgrade --releasever=2023.8.20250908
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250908.html
+
+  Version 2023.8.20250915:
+    Run the following command to upgrade to 2023.8.20250915:
+
+      dnf upgrade --releasever=2023.8.20250915
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250915.html
+
+  Version 2023.9.20250929:
+    Run the following command to upgrade to 2023.9.20250929:
+
+      dnf upgrade --releasever=2023.9.20250929
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20250929.html
+
+  Version 2023.9.20251014:
+    Run the following command to upgrade to 2023.9.20251014:
+
+      dnf upgrade --releasever=2023.9.20251014
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251014.html
+
+2025-10-15T19:20:20+0000 DDEBUG Cleaning up.
+2025-10-28T08:11:58+0000 INFO --- logging initialized ---
+2025-10-28T08:11:58+0000 DDEBUG timer: config: 27 ms
+2025-10-28T08:11:58+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-28T08:11:58+0000 DEBUG DNF version: 4.14.0
+2025-10-28T08:11:58+0000 DDEBUG Command: dnf --debuglevel 2 updateinfo
+2025-10-28T08:11:58+0000 DDEBUG Installroot: /
+2025-10-28T08:11:58+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-28T08:11:58+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-28T08:11:58+0000 DDEBUG Base command: updateinfo
+2025-10-28T08:11:58+0000 DDEBUG Extra commands: ['--debuglevel', '2', 'updateinfo']
+2025-10-28T08:11:58+0000 DEBUG User-Agent: constructed: 'libdnf (Amazon Linux 2023; generic; Linux.x86_64)'
+2025-10-28T08:11:59+0000 DEBUG reviving: 'amazonlinux' can be revived - repomd matches.
+2025-10-28T08:11:59+0000 DEBUG amazonlinux: using metadata from Wed Mar 12 22:06:15 2025.
+2025-10-28T08:12:00+0000 DEBUG reviving: failed for 'kernel-livepatch', mismatched repomd.
+2025-10-28T08:12:00+0000 DEBUG repo: downloading from remote: kernel-livepatch
+2025-10-28T08:12:00+0000 DEBUG kernel-livepatch: using metadata from Tue Oct 21 15:40:12 2025.
+2025-10-28T08:12:00+0000 DDEBUG timer: sack setup: 1481 ms
+2025-10-28T08:12:00+0000 DEBUG Completion plugin: Generating completion cache...
+2025-10-28T08:12:01+0000 DDEBUG Cleaning up.
+2025-10-28T08:12:02+0000 INFO --- logging initialized ---
+2025-10-28T08:12:02+0000 DDEBUG timer: config: 3 ms
+2025-10-28T08:12:02+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-28T08:12:02+0000 DEBUG DNF version: 4.14.0
+2025-10-28T08:12:02+0000 DDEBUG Command: dnf check-release-update
+2025-10-28T08:12:02+0000 DDEBUG Installroot: /
+2025-10-28T08:12:02+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-28T08:12:02+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-28T08:12:02+0000 DDEBUG Base command: check-release-update
+2025-10-28T08:12:02+0000 DDEBUG Extra commands: ['check-release-update']
+2025-10-28T08:12:02+0000 WARNING WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.7.20250331:
+    Run the following command to upgrade to 2023.7.20250331:
+
+      dnf upgrade --releasever=2023.7.20250331
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250331.html
+
+  Version 2023.7.20250414:
+    Run the following command to upgrade to 2023.7.20250414:
+
+      dnf upgrade --releasever=2023.7.20250414
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250414.html
+
+  Version 2023.7.20250428:
+    Run the following command to upgrade to 2023.7.20250428:
+
+      dnf upgrade --releasever=2023.7.20250428
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250428.html
+
+  Version 2023.7.20250512:
+    Run the following command to upgrade to 2023.7.20250512:
+
+      dnf upgrade --releasever=2023.7.20250512
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250512.html
+
+  Version 2023.7.20250527:
+    Run the following command to upgrade to 2023.7.20250527:
+
+      dnf upgrade --releasever=2023.7.20250527
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250527.html
+
+  Version 2023.7.20250609:
+    Run the following command to upgrade to 2023.7.20250609:
+
+      dnf upgrade --releasever=2023.7.20250609
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250609.html
+
+  Version 2023.7.20250623:
+    Run the following command to upgrade to 2023.7.20250623:
+
+      dnf upgrade --releasever=2023.7.20250623
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250623.html
+
+  Version 2023.8.20250707:
+    Run the following command to upgrade to 2023.8.20250707:
+
+      dnf upgrade --releasever=2023.8.20250707
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250707.html
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
+
+  Version 2023.8.20250721:
+    Run the following command to upgrade to 2023.8.20250721:
+
+      dnf upgrade --releasever=2023.8.20250721
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250721.html
+
+  Version 2023.8.20250808:
+    Run the following command to upgrade to 2023.8.20250808:
+
+      dnf upgrade --releasever=2023.8.20250808
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250808.html
+
+  Version 2023.8.20250818:
+    Run the following command to upgrade to 2023.8.20250818:
+
+      dnf upgrade --releasever=2023.8.20250818
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250818.html
+
+  Version 2023.8.20250908:
+    Run the following command to upgrade to 2023.8.20250908:
+
+      dnf upgrade --releasever=2023.8.20250908
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250908.html
+
+  Version 2023.8.20250915:
+    Run the following command to upgrade to 2023.8.20250915:
+
+      dnf upgrade --releasever=2023.8.20250915
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250915.html
+
+  Version 2023.9.20250929:
+    Run the following command to upgrade to 2023.9.20250929:
+
+      dnf upgrade --releasever=2023.9.20250929
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20250929.html
+
+  Version 2023.9.20251014:
+    Run the following command to upgrade to 2023.9.20251014:
+
+      dnf upgrade --releasever=2023.9.20251014
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251014.html
+
+  Version 2023.9.20251020:
+    Run the following command to upgrade to 2023.9.20251020:
+
+      dnf upgrade --releasever=2023.9.20251020
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251020.html
+
+  Version 2023.9.20251027:
+    Run the following command to upgrade to 2023.9.20251027:
+
+      dnf upgrade --releasever=2023.9.20251027
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251027.html
+
+2025-10-28T08:12:02+0000 DDEBUG Cleaning up.
+2025-10-29T10:17:30+0000 INFO --- logging initialized ---
+2025-10-29T10:17:30+0000 DDEBUG timer: config: 31 ms
+2025-10-29T10:17:30+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-29T10:17:30+0000 DEBUG DNF version: 4.14.0
+2025-10-29T10:17:30+0000 DDEBUG Command: dnf --debuglevel 2 updateinfo
+2025-10-29T10:17:30+0000 DDEBUG Installroot: /
+2025-10-29T10:17:30+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-29T10:17:30+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-29T10:17:30+0000 DDEBUG Base command: updateinfo
+2025-10-29T10:17:30+0000 DDEBUG Extra commands: ['--debuglevel', '2', 'updateinfo']
+2025-10-29T10:17:30+0000 DEBUG User-Agent: constructed: 'libdnf (Amazon Linux 2023; generic; Linux.x86_64)'
+2025-10-29T10:17:30+0000 DEBUG repo: using cache for: amazonlinux
+2025-10-29T10:17:31+0000 DEBUG amazonlinux: using metadata from Wed Mar 12 22:06:15 2025.
+2025-10-29T10:17:31+0000 DEBUG repo: using cache for: kernel-livepatch
+2025-10-29T10:17:31+0000 DEBUG kernel-livepatch: using metadata from Tue Oct 21 15:40:12 2025.
+2025-10-29T10:17:31+0000 INFO Last metadata expiration check: 1 day, 2:05:31 ago on Tue Oct 28 08:12:00 2025.
+2025-10-29T10:17:31+0000 DDEBUG timer: sack setup: 731 ms
+2025-10-29T10:17:31+0000 DDEBUG Cleaning up.
+2025-10-29T10:17:32+0000 INFO --- logging initialized ---
+2025-10-29T10:17:32+0000 DDEBUG timer: config: 13 ms
+2025-10-29T10:17:32+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-29T10:17:32+0000 DEBUG DNF version: 4.14.0
+2025-10-29T10:17:32+0000 DDEBUG Command: dnf check-release-update
+2025-10-29T10:17:32+0000 DDEBUG Installroot: /
+2025-10-29T10:17:32+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-29T10:17:32+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-29T10:17:32+0000 DDEBUG Base command: check-release-update
+2025-10-29T10:17:32+0000 DDEBUG Extra commands: ['check-release-update']
+2025-10-29T10:17:32+0000 WARNING WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.7.20250331:
+    Run the following command to upgrade to 2023.7.20250331:
+
+      dnf upgrade --releasever=2023.7.20250331
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250331.html
+
+  Version 2023.7.20250414:
+    Run the following command to upgrade to 2023.7.20250414:
+
+      dnf upgrade --releasever=2023.7.20250414
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250414.html
+
+  Version 2023.7.20250428:
+    Run the following command to upgrade to 2023.7.20250428:
+
+      dnf upgrade --releasever=2023.7.20250428
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250428.html
+
+  Version 2023.7.20250512:
+    Run the following command to upgrade to 2023.7.20250512:
+
+      dnf upgrade --releasever=2023.7.20250512
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250512.html
+
+  Version 2023.7.20250527:
+    Run the following command to upgrade to 2023.7.20250527:
+
+      dnf upgrade --releasever=2023.7.20250527
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250527.html
+
+  Version 2023.7.20250609:
+    Run the following command to upgrade to 2023.7.20250609:
+
+      dnf upgrade --releasever=2023.7.20250609
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250609.html
+
+  Version 2023.7.20250623:
+    Run the following command to upgrade to 2023.7.20250623:
+
+      dnf upgrade --releasever=2023.7.20250623
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250623.html
+
+  Version 2023.8.20250707:
+    Run the following command to upgrade to 2023.8.20250707:
+
+      dnf upgrade --releasever=2023.8.20250707
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250707.html
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
+
+  Version 2023.8.20250721:
+    Run the following command to upgrade to 2023.8.20250721:
+
+      dnf upgrade --releasever=2023.8.20250721
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250721.html
+
+  Version 2023.8.20250808:
+    Run the following command to upgrade to 2023.8.20250808:
+
+      dnf upgrade --releasever=2023.8.20250808
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250808.html
+
+  Version 2023.8.20250818:
+    Run the following command to upgrade to 2023.8.20250818:
+
+      dnf upgrade --releasever=2023.8.20250818
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250818.html
+
+  Version 2023.8.20250908:
+    Run the following command to upgrade to 2023.8.20250908:
+
+      dnf upgrade --releasever=2023.8.20250908
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250908.html
+
+  Version 2023.8.20250915:
+    Run the following command to upgrade to 2023.8.20250915:
+
+      dnf upgrade --releasever=2023.8.20250915
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250915.html
+
+  Version 2023.9.20250929:
+    Run the following command to upgrade to 2023.9.20250929:
+
+      dnf upgrade --releasever=2023.9.20250929
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20250929.html
+
+  Version 2023.9.20251014:
+    Run the following command to upgrade to 2023.9.20251014:
+
+      dnf upgrade --releasever=2023.9.20251014
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251014.html
+
+  Version 2023.9.20251020:
+    Run the following command to upgrade to 2023.9.20251020:
+
+      dnf upgrade --releasever=2023.9.20251020
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251020.html
+
+  Version 2023.9.20251027:
+    Run the following command to upgrade to 2023.9.20251027:
+
+      dnf upgrade --releasever=2023.9.20251027
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251027.html
+
+2025-10-29T10:17:32+0000 DDEBUG Cleaning up.
+2025-10-31T07:33:37+0000 INFO --- logging initialized ---
+2025-10-31T07:33:37+0000 DDEBUG timer: config: 30 ms
+2025-10-31T07:33:37+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-31T07:33:37+0000 DEBUG DNF version: 4.14.0
+2025-10-31T07:33:37+0000 DDEBUG Command: dnf --debuglevel 2 updateinfo
+2025-10-31T07:33:37+0000 DDEBUG Installroot: /
+2025-10-31T07:33:37+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-31T07:33:37+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-31T07:33:37+0000 DDEBUG Base command: updateinfo
+2025-10-31T07:33:37+0000 DDEBUG Extra commands: ['--debuglevel', '2', 'updateinfo']
+2025-10-31T07:33:37+0000 DEBUG User-Agent: constructed: 'libdnf (Amazon Linux 2023; generic; Linux.x86_64)'
+2025-10-31T07:33:37+0000 DEBUG reviving: 'amazonlinux' can be revived - repomd matches.
+2025-10-31T07:33:38+0000 DEBUG amazonlinux: using metadata from Wed Mar 12 22:06:15 2025.
+2025-10-31T07:33:38+0000 DEBUG reviving: 'kernel-livepatch' can be revived - repomd matches.
+2025-10-31T07:33:38+0000 DEBUG kernel-livepatch: using metadata from Tue Oct 21 15:40:12 2025.
+2025-10-31T07:33:38+0000 DDEBUG timer: sack setup: 1255 ms
+2025-10-31T07:33:38+0000 DDEBUG Cleaning up.
+2025-10-31T07:33:39+0000 INFO --- logging initialized ---
+2025-10-31T07:33:39+0000 DDEBUG timer: config: 10 ms
+2025-10-31T07:33:39+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-10-31T07:33:39+0000 DEBUG DNF version: 4.14.0
+2025-10-31T07:33:39+0000 DDEBUG Command: dnf check-release-update
+2025-10-31T07:33:39+0000 DDEBUG Installroot: /
+2025-10-31T07:33:39+0000 DDEBUG Releasever: 2023.6.20250317
+2025-10-31T07:33:39+0000 DEBUG cachedir: /var/cache/dnf
+2025-10-31T07:33:39+0000 DDEBUG Base command: check-release-update
+2025-10-31T07:33:39+0000 DDEBUG Extra commands: ['check-release-update']
+2025-10-31T07:33:40+0000 WARNING WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.7.20250331:
+    Run the following command to upgrade to 2023.7.20250331:
+
+      dnf upgrade --releasever=2023.7.20250331
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250331.html
+
+  Version 2023.7.20250414:
+    Run the following command to upgrade to 2023.7.20250414:
+
+      dnf upgrade --releasever=2023.7.20250414
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250414.html
+
+  Version 2023.7.20250428:
+    Run the following command to upgrade to 2023.7.20250428:
+
+      dnf upgrade --releasever=2023.7.20250428
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250428.html
+
+  Version 2023.7.20250512:
+    Run the following command to upgrade to 2023.7.20250512:
+
+      dnf upgrade --releasever=2023.7.20250512
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250512.html
+
+  Version 2023.7.20250527:
+    Run the following command to upgrade to 2023.7.20250527:
+
+      dnf upgrade --releasever=2023.7.20250527
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250527.html
+
+  Version 2023.7.20250609:
+    Run the following command to upgrade to 2023.7.20250609:
+
+      dnf upgrade --releasever=2023.7.20250609
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250609.html
+
+  Version 2023.7.20250623:
+    Run the following command to upgrade to 2023.7.20250623:
+
+      dnf upgrade --releasever=2023.7.20250623
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250623.html
+
+  Version 2023.8.20250707:
+    Run the following command to upgrade to 2023.8.20250707:
+
+      dnf upgrade --releasever=2023.8.20250707
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250707.html
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
+
+  Version 2023.8.20250721:
+    Run the following command to upgrade to 2023.8.20250721:
+
+      dnf upgrade --releasever=2023.8.20250721
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250721.html
+
+  Version 2023.8.20250808:
+    Run the following command to upgrade to 2023.8.20250808:
+
+      dnf upgrade --releasever=2023.8.20250808
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250808.html
+
+  Version 2023.8.20250818:
+    Run the following command to upgrade to 2023.8.20250818:
+
+      dnf upgrade --releasever=2023.8.20250818
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250818.html
+
+  Version 2023.8.20250908:
+    Run the following command to upgrade to 2023.8.20250908:
+
+      dnf upgrade --releasever=2023.8.20250908
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250908.html
+
+  Version 2023.8.20250915:
+    Run the following command to upgrade to 2023.8.20250915:
+
+      dnf upgrade --releasever=2023.8.20250915
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250915.html
+
+  Version 2023.9.20250929:
+    Run the following command to upgrade to 2023.9.20250929:
+
+      dnf upgrade --releasever=2023.9.20250929
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20250929.html
+
+  Version 2023.9.20251014:
+    Run the following command to upgrade to 2023.9.20251014:
+
+      dnf upgrade --releasever=2023.9.20251014
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251014.html
+
+  Version 2023.9.20251020:
+    Run the following command to upgrade to 2023.9.20251020:
+
+      dnf upgrade --releasever=2023.9.20251020
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251020.html
+
+  Version 2023.9.20251027:
+    Run the following command to upgrade to 2023.9.20251027:
+
+      dnf upgrade --releasever=2023.9.20251027
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251027.html
+
+2025-10-31T07:33:40+0000 DDEBUG Cleaning up.
+2025-11-04T08:12:51+0000 INFO --- logging initialized ---
+2025-11-04T08:12:51+0000 DDEBUG timer: config: 31 ms
+2025-11-04T08:12:51+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-11-04T08:12:51+0000 DEBUG DNF version: 4.14.0
+2025-11-04T08:12:51+0000 DDEBUG Command: dnf --debuglevel 2 updateinfo
+2025-11-04T08:12:51+0000 DDEBUG Installroot: /
+2025-11-04T08:12:51+0000 DDEBUG Releasever: 2023.6.20250317
+2025-11-04T08:12:51+0000 DEBUG cachedir: /var/cache/dnf
+2025-11-04T08:12:51+0000 DDEBUG Base command: updateinfo
+2025-11-04T08:12:51+0000 DDEBUG Extra commands: ['--debuglevel', '2', 'updateinfo']
+2025-11-04T08:12:51+0000 DEBUG User-Agent: constructed: 'libdnf (Amazon Linux 2023; generic; Linux.x86_64)'
+2025-11-04T08:12:51+0000 DEBUG reviving: 'amazonlinux' can be revived - repomd matches.
+2025-11-04T08:12:52+0000 DEBUG amazonlinux: using metadata from Wed Mar 12 22:06:15 2025.
+2025-11-04T08:12:52+0000 DEBUG reviving: 'kernel-livepatch' can be revived - repomd matches.
+2025-11-04T08:12:52+0000 DEBUG kernel-livepatch: using metadata from Tue Oct 21 15:40:12 2025.
+2025-11-04T08:12:52+0000 DDEBUG timer: sack setup: 1268 ms
+2025-11-04T08:12:53+0000 DDEBUG Cleaning up.
+2025-11-04T08:12:53+0000 INFO --- logging initialized ---
+2025-11-04T08:12:53+0000 DDEBUG timer: config: 63 ms
+2025-11-04T08:12:54+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-11-04T08:12:54+0000 DEBUG DNF version: 4.14.0
+2025-11-04T08:12:54+0000 DDEBUG Command: dnf check-release-update
+2025-11-04T08:12:54+0000 DDEBUG Installroot: /
+2025-11-04T08:12:54+0000 DDEBUG Releasever: 2023.6.20250317
+2025-11-04T08:12:54+0000 DEBUG cachedir: /var/cache/dnf
+2025-11-04T08:12:54+0000 DDEBUG Base command: check-release-update
+2025-11-04T08:12:54+0000 DDEBUG Extra commands: ['check-release-update']
+2025-11-04T08:12:54+0000 WARNING WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.7.20250331:
+    Run the following command to upgrade to 2023.7.20250331:
+
+      dnf upgrade --releasever=2023.7.20250331
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250331.html
+
+  Version 2023.7.20250414:
+    Run the following command to upgrade to 2023.7.20250414:
+
+      dnf upgrade --releasever=2023.7.20250414
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250414.html
+
+  Version 2023.7.20250428:
+    Run the following command to upgrade to 2023.7.20250428:
+
+      dnf upgrade --releasever=2023.7.20250428
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250428.html
+
+  Version 2023.7.20250512:
+    Run the following command to upgrade to 2023.7.20250512:
+
+      dnf upgrade --releasever=2023.7.20250512
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250512.html
+
+  Version 2023.7.20250527:
+    Run the following command to upgrade to 2023.7.20250527:
+
+      dnf upgrade --releasever=2023.7.20250527
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250527.html
+
+  Version 2023.7.20250609:
+    Run the following command to upgrade to 2023.7.20250609:
+
+      dnf upgrade --releasever=2023.7.20250609
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250609.html
+
+  Version 2023.7.20250623:
+    Run the following command to upgrade to 2023.7.20250623:
+
+      dnf upgrade --releasever=2023.7.20250623
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250623.html
+
+  Version 2023.8.20250707:
+    Run the following command to upgrade to 2023.8.20250707:
+
+      dnf upgrade --releasever=2023.8.20250707
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250707.html
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
+
+  Version 2023.8.20250721:
+    Run the following command to upgrade to 2023.8.20250721:
+
+      dnf upgrade --releasever=2023.8.20250721
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250721.html
+
+  Version 2023.8.20250808:
+    Run the following command to upgrade to 2023.8.20250808:
+
+      dnf upgrade --releasever=2023.8.20250808
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250808.html
+
+  Version 2023.8.20250818:
+    Run the following command to upgrade to 2023.8.20250818:
+
+      dnf upgrade --releasever=2023.8.20250818
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250818.html
+
+  Version 2023.8.20250908:
+    Run the following command to upgrade to 2023.8.20250908:
+
+      dnf upgrade --releasever=2023.8.20250908
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250908.html
+
+  Version 2023.8.20250915:
+    Run the following command to upgrade to 2023.8.20250915:
+
+      dnf upgrade --releasever=2023.8.20250915
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250915.html
+
+  Version 2023.9.20250929:
+    Run the following command to upgrade to 2023.9.20250929:
+
+      dnf upgrade --releasever=2023.9.20250929
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20250929.html
+
+  Version 2023.9.20251014:
+    Run the following command to upgrade to 2023.9.20251014:
+
+      dnf upgrade --releasever=2023.9.20251014
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251014.html
+
+  Version 2023.9.20251020:
+    Run the following command to upgrade to 2023.9.20251020:
+
+      dnf upgrade --releasever=2023.9.20251020
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251020.html
+
+  Version 2023.9.20251027:
+    Run the following command to upgrade to 2023.9.20251027:
+
+      dnf upgrade --releasever=2023.9.20251027
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251027.html
+
+2025-11-04T08:12:54+0000 DDEBUG Cleaning up.
+2025-11-05T12:50:05+0000 INFO --- logging initialized ---
+2025-11-05T12:50:05+0000 DDEBUG timer: config: 38 ms
+2025-11-05T12:50:05+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-11-05T12:50:05+0000 DEBUG DNF version: 4.14.0
+2025-11-05T12:50:05+0000 DDEBUG Command: dnf --debuglevel 2 updateinfo
+2025-11-05T12:50:05+0000 DDEBUG Installroot: /
+2025-11-05T12:50:05+0000 DDEBUG Releasever: 2023.6.20250317
+2025-11-05T12:50:05+0000 DEBUG cachedir: /var/cache/dnf
+2025-11-05T12:50:05+0000 DDEBUG Base command: updateinfo
+2025-11-05T12:50:05+0000 DDEBUG Extra commands: ['--debuglevel', '2', 'updateinfo']
+2025-11-05T12:50:05+0000 DEBUG User-Agent: constructed: 'libdnf (Amazon Linux 2023; generic; Linux.x86_64)'
+2025-11-05T12:50:06+0000 DEBUG repo: using cache for: amazonlinux
+2025-11-05T12:50:06+0000 DEBUG amazonlinux: using metadata from Wed Mar 12 22:06:15 2025.
+2025-11-05T12:50:06+0000 DEBUG repo: using cache for: kernel-livepatch
+2025-11-05T12:50:06+0000 DEBUG kernel-livepatch: using metadata from Tue Oct 21 15:40:12 2025.
+2025-11-05T12:50:06+0000 INFO Last metadata expiration check: 1 day, 4:37:14 ago on Tue Nov  4 08:12:52 2025.
+2025-11-05T12:50:06+0000 DDEBUG timer: sack setup: 841 ms
+2025-11-05T12:50:06+0000 DDEBUG Cleaning up.
+2025-11-05T12:50:07+0000 INFO --- logging initialized ---
+2025-11-05T12:50:07+0000 DDEBUG timer: config: 15 ms
+2025-11-05T12:50:08+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-11-05T12:50:08+0000 DEBUG DNF version: 4.14.0
+2025-11-05T12:50:08+0000 DDEBUG Command: dnf check-release-update
+2025-11-05T12:50:08+0000 DDEBUG Installroot: /
+2025-11-05T12:50:08+0000 DDEBUG Releasever: 2023.6.20250317
+2025-11-05T12:50:08+0000 DEBUG cachedir: /var/cache/dnf
+2025-11-05T12:50:08+0000 DDEBUG Base command: check-release-update
+2025-11-05T12:50:08+0000 DDEBUG Extra commands: ['check-release-update']
+2025-11-05T12:50:08+0000 WARNING WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.7.20250331:
+    Run the following command to upgrade to 2023.7.20250331:
+
+      dnf upgrade --releasever=2023.7.20250331
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250331.html
+
+  Version 2023.7.20250414:
+    Run the following command to upgrade to 2023.7.20250414:
+
+      dnf upgrade --releasever=2023.7.20250414
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250414.html
+
+  Version 2023.7.20250428:
+    Run the following command to upgrade to 2023.7.20250428:
+
+      dnf upgrade --releasever=2023.7.20250428
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250428.html
+
+  Version 2023.7.20250512:
+    Run the following command to upgrade to 2023.7.20250512:
+
+      dnf upgrade --releasever=2023.7.20250512
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250512.html
+
+  Version 2023.7.20250527:
+    Run the following command to upgrade to 2023.7.20250527:
+
+      dnf upgrade --releasever=2023.7.20250527
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250527.html
+
+  Version 2023.7.20250609:
+    Run the following command to upgrade to 2023.7.20250609:
+
+      dnf upgrade --releasever=2023.7.20250609
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250609.html
+
+  Version 2023.7.20250623:
+    Run the following command to upgrade to 2023.7.20250623:
+
+      dnf upgrade --releasever=2023.7.20250623
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250623.html
+
+  Version 2023.8.20250707:
+    Run the following command to upgrade to 2023.8.20250707:
+
+      dnf upgrade --releasever=2023.8.20250707
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250707.html
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
+
+  Version 2023.8.20250721:
+    Run the following command to upgrade to 2023.8.20250721:
+
+      dnf upgrade --releasever=2023.8.20250721
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250721.html
+
+  Version 2023.8.20250808:
+    Run the following command to upgrade to 2023.8.20250808:
+
+      dnf upgrade --releasever=2023.8.20250808
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250808.html
+
+  Version 2023.8.20250818:
+    Run the following command to upgrade to 2023.8.20250818:
+
+      dnf upgrade --releasever=2023.8.20250818
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250818.html
+
+  Version 2023.8.20250908:
+    Run the following command to upgrade to 2023.8.20250908:
+
+      dnf upgrade --releasever=2023.8.20250908
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250908.html
+
+  Version 2023.8.20250915:
+    Run the following command to upgrade to 2023.8.20250915:
+
+      dnf upgrade --releasever=2023.8.20250915
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250915.html
+
+  Version 2023.9.20250929:
+    Run the following command to upgrade to 2023.9.20250929:
+
+      dnf upgrade --releasever=2023.9.20250929
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20250929.html
+
+  Version 2023.9.20251014:
+    Run the following command to upgrade to 2023.9.20251014:
+
+      dnf upgrade --releasever=2023.9.20251014
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251014.html
+
+  Version 2023.9.20251020:
+    Run the following command to upgrade to 2023.9.20251020:
+
+      dnf upgrade --releasever=2023.9.20251020
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251020.html
+
+  Version 2023.9.20251027:
+    Run the following command to upgrade to 2023.9.20251027:
+
+      dnf upgrade --releasever=2023.9.20251027
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251027.html
+
+2025-11-05T12:50:08+0000 DDEBUG Cleaning up.
+2025-11-05T15:39:39+0000 INFO --- logging initialized ---
+2025-11-05T15:39:39+0000 DDEBUG timer: config: 29 ms
+2025-11-05T15:39:40+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-11-05T15:39:40+0000 DEBUG DNF version: 4.14.0
+2025-11-05T15:39:40+0000 DDEBUG Command: dnf --debuglevel 2 updateinfo
+2025-11-05T15:39:40+0000 DDEBUG Installroot: /
+2025-11-05T15:39:40+0000 DDEBUG Releasever: 2023.6.20250317
+2025-11-05T15:39:40+0000 DEBUG cachedir: /var/cache/dnf
+2025-11-05T15:39:40+0000 DDEBUG Base command: updateinfo
+2025-11-05T15:39:40+0000 DDEBUG Extra commands: ['--debuglevel', '2', 'updateinfo']
+2025-11-05T15:39:40+0000 DEBUG User-Agent: constructed: 'libdnf (Amazon Linux 2023; generic; Linux.x86_64)'
+2025-11-05T15:39:40+0000 DEBUG repo: using cache for: amazonlinux
+2025-11-05T15:39:40+0000 DEBUG amazonlinux: using metadata from Wed Mar 12 22:06:15 2025.
+2025-11-05T15:39:40+0000 DEBUG repo: using cache for: kernel-livepatch
+2025-11-05T15:39:40+0000 DEBUG kernel-livepatch: using metadata from Tue Oct 21 15:40:12 2025.
+2025-11-05T15:39:40+0000 INFO Last metadata expiration check: 1 day, 7:26:48 ago on Tue Nov  4 08:12:52 2025.
+2025-11-05T15:39:40+0000 DDEBUG timer: sack setup: 717 ms
+2025-11-05T15:39:41+0000 DDEBUG Cleaning up.
+2025-11-05T15:39:42+0000 INFO --- logging initialized ---
+2025-11-05T15:39:42+0000 DDEBUG timer: config: 84 ms
+2025-11-05T15:39:42+0000 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, release-notification, repoclosure, repodiff, repograph, repomanage, reposync, supportinfo
+2025-11-05T15:39:42+0000 DEBUG DNF version: 4.14.0
+2025-11-05T15:39:42+0000 DDEBUG Command: dnf check-release-update
+2025-11-05T15:39:42+0000 DDEBUG Installroot: /
+2025-11-05T15:39:42+0000 DDEBUG Releasever: 2023.6.20250317
+2025-11-05T15:39:42+0000 DEBUG cachedir: /var/cache/dnf
+2025-11-05T15:39:42+0000 DDEBUG Base command: check-release-update
+2025-11-05T15:39:42+0000 DDEBUG Extra commands: ['check-release-update']
+2025-11-05T15:39:42+0000 WARNING WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.7.20250331:
+    Run the following command to upgrade to 2023.7.20250331:
+
+      dnf upgrade --releasever=2023.7.20250331
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250331.html
+
+  Version 2023.7.20250414:
+    Run the following command to upgrade to 2023.7.20250414:
+
+      dnf upgrade --releasever=2023.7.20250414
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250414.html
+
+  Version 2023.7.20250428:
+    Run the following command to upgrade to 2023.7.20250428:
+
+      dnf upgrade --releasever=2023.7.20250428
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250428.html
+
+  Version 2023.7.20250512:
+    Run the following command to upgrade to 2023.7.20250512:
+
+      dnf upgrade --releasever=2023.7.20250512
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250512.html
+
+  Version 2023.7.20250527:
+    Run the following command to upgrade to 2023.7.20250527:
+
+      dnf upgrade --releasever=2023.7.20250527
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250527.html
+
+  Version 2023.7.20250609:
+    Run the following command to upgrade to 2023.7.20250609:
+
+      dnf upgrade --releasever=2023.7.20250609
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250609.html
+
+  Version 2023.7.20250623:
+    Run the following command to upgrade to 2023.7.20250623:
+
+      dnf upgrade --releasever=2023.7.20250623
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.7.20250623.html
+
+  Version 2023.8.20250707:
+    Run the following command to upgrade to 2023.8.20250707:
+
+      dnf upgrade --releasever=2023.8.20250707
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250707.html
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
+
+  Version 2023.8.20250721:
+    Run the following command to upgrade to 2023.8.20250721:
+
+      dnf upgrade --releasever=2023.8.20250721
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250721.html
+
+  Version 2023.8.20250808:
+    Run the following command to upgrade to 2023.8.20250808:
+
+      dnf upgrade --releasever=2023.8.20250808
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250808.html
+
+  Version 2023.8.20250818:
+    Run the following command to upgrade to 2023.8.20250818:
+
+      dnf upgrade --releasever=2023.8.20250818
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250818.html
+
+  Version 2023.8.20250908:
+    Run the following command to upgrade to 2023.8.20250908:
+
+      dnf upgrade --releasever=2023.8.20250908
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250908.html
+
+  Version 2023.8.20250915:
+    Run the following command to upgrade to 2023.8.20250915:
+
+      dnf upgrade --releasever=2023.8.20250915
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250915.html
+
+  Version 2023.9.20250929:
+    Run the following command to upgrade to 2023.9.20250929:
+
+      dnf upgrade --releasever=2023.9.20250929
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20250929.html
+
+  Version 2023.9.20251014:
+    Run the following command to upgrade to 2023.9.20251014:
+
+      dnf upgrade --releasever=2023.9.20251014
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251014.html
+
+  Version 2023.9.20251020:
+    Run the following command to upgrade to 2023.9.20251020:
+
+      dnf upgrade --releasever=2023.9.20251020
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251020.html
+
+  Version 2023.9.20251027:
+    Run the following command to upgrade to 2023.9.20251027:
+
+      dnf upgrade --releasever=2023.9.20251027
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.9.20251027.html
+
+2025-11-05T15:39:42+0000 DDEBUG Cleaning up.
